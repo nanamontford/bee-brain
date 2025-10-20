@@ -1,0 +1,22 @@
+h1 {
+    color: #ac1b1a;
+    font-family: "Arial", sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: "Verdana", sans-serif;
+}
+#logo {
+    width: 100px;
+    height: 100px;
+}
+/*main*/
+
+/* Footer styling */
+footer {
+    margin-top: auto;
+    background-color: #ac1b1a;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
