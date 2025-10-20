@@ -1,0 +1,27 @@
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary / backup files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+*.env
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# VS Code settings
+.vscode/
+.history/
