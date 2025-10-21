@@ -9,7 +9,29 @@ h1 {
     width: 100px;
     height: 100px;
 }
+
 /*main*/
+.quiz-card {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #ac1b1a;
+    box-shadow: 0 0 15px #ac1b1a;
+    border-radius: 10px;
+    padding: 2rem;
+    transition: transform 0.3s;
+    cursor: pointer;
+    color: #ac1b1a;
+}
+
+.quiz-card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ac1b1a;
+}
+.quiz-card img {
+    width: 100%;
+    border-radius: 8px;
+    image-rendering: pixelated;
+}
 
 /* Footer styling */
 footer {
@@ -19,4 +41,18 @@ footer {
     text-align: center;
     color: white;
     font-weight: 500;
+}
+/* gk-index (sameera made changes for gk-index )*/
+.my-custom-btn {
+    background-color: #ac1b1a; /* custom color */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.my-custom-btn:hover {
+    background-color: #ac1b1a;
+    transform: scale(1.05);
 }
