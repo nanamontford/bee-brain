@@ -7,3 +7,6 @@
 - As a quiz enthusiast, I want confirmation of my score so I can reflect on my answers and improve.
 - As a first-time user, I want an inviting welcome page so I can quickly understand the site and decide if it meets my needs.
 - As a user, I want the website to be responsive so I can use it across different screen sizes.
+
+### Fonts 
+Arial in bold was used for headers and Verdana for all other text. These fonts were chosen for readability, particularly for individuals with visual impairments. 
