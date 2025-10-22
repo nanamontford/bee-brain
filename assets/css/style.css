@@ -94,3 +94,29 @@ footer {
 #nav-bar .logo {
     width: 30px;
 }
+
+/* Footer styling */
+footer {
+    margin-top: auto;
+    background-color: #ac1b1a;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+/* gk-index (sameera made changes for gk-index )*/
+.my-custom-btn {
+    background-color: #ac1b1a; /* custom color */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+.my-custom-btn:hover {
+    background-color: #ac1b1a;
+    transform: scale(1.05);
+    color: #fff;
+}
