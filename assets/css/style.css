@@ -50,9 +50,11 @@ footer {
     padding: 10px 25px;
     font-weight: bold;
     transition: all 0.3s ease;
+    color: #fff;
 }
 
 .my-custom-btn:hover {
     background-color: #ac1b1a;
     transform: scale(1.05);
+    color: #fff;
 }
