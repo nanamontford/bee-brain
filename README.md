@@ -1,6 +1,18 @@
 # Bee Brain 
 
-## Introductin 
+--- 
+
+## Bee Brain - Your ultimate destination for fun and engaging quizzes on a variety of topics.
+
+## View Bee Brain now on GitHub Pages
+
+---
+
+## Table of Contents
+
+- [Introduction](#introduction)
+
+### Introduction 
 
 ### User Stories 
 - As a teacher, I want to quickly navigate between quizzes so I can use the site seamlessly while working with students.
