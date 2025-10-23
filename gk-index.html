@@ -14,6 +14,27 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+<!-- navigation bar  -->
+<nav id="nav-bar" class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.png" class="logo" alt="BeeBrain logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <!--  Change nav bar active id + class + aria to whichever is correct on that page, please -->
+                <a class="nav-link" href="gk-index.html">General knowledge</a>
+                <a class="nav-link" href="geo-index.html">Geography</a>
+                <a id="nav-bar-active" class="nav-link active" aria-current="movie quiz"
+                    href="movie-index.html">Movies</a>
+            </div>
+        </div>
+    </div>
+</nav>
 <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
 
 <body class="d-flex flex-column min-vh-100">
@@ -29,24 +50,28 @@
     </header>
     <!--main-->
     <main>
+
         <div class="container pt-5">
-            <div class="row justify-content-center p-4">
-                <div class="col  text-center quiz-card ">
-                    <div class=" text-center ">
+            <div class="row justify-content-center ">
+                <div class="col text-center gk-card  ">
+                    <div class="quiz-container id=gk">
                         <h2>GK Quiz</h2>
-                        <p id="question">1. What is your name?</p>
+                        <p class="fw-bold" id="question"></p>
 
-                        <div id="options">sameera</div>
+                        <div id="options"></div>
 
-                        <div class="mt-5">
-                            <button class=" btn  my-custom-btn" id="submitBtn">Submit</button>
-                            <button class=" btn  my-custom-btn" id="nextBtn">Next</button>
-                            <button class=" btn  my-custom-btn" id="resetBtn">Reset</button>
+                        <div style="margin-top:15px;">
+                            <button class="btn my-custom-btn" id="scoreBtn">Submit</button>
+                            <button class="btn my-custom-btn" id="nextBtn" style="display:none;">Next</button>
+                            <button class="btn my-custom-btn" id="resetBtn">Restart</button>
                         </div>
-                        <div class="score-output" id="scoreOutput">0</div>
-                        <div class="congrats" id="congratsMsg"> Congratulations message</div>
-                        <div class="explanation" id="explanation">explanation</div>
+
+                        <div class="score-output" id="scoreOutput"></div>
+                        <div class="congrats" id="congratsMsg" style="display:none;">🎉 Congratulations! You got a
+                            perfect score! 🎉</div>
+                        <div class="explanation" id="explanation" style="display:none;">explanation</div>
                     </div>
+
 
                 </div>
             </div>

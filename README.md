@@ -13,38 +13,112 @@
 - [Introduction](#introduction)
 - [User Experience](#user-experience)
 - [Features](#features)
+- [Tools Used](#tools-used)
 - [Wireframe](#wireframe)
 - [Deployment](#deployment)
 - [AI Augmentation](#ai-augmentation)
 - [End Credits](#end-credits)
 
+![readme-homepage-screenshot](assets/images/readme-homepage-screenshot.png)
+
 ### Introduction 
 
+**Bee Brain** is a buzzing hub of fun quizzes where users can test their knowledge on everything from movies to geography. Come see if you've got what it takes to ***bee*** the best! 
+
+#### Website Purpose
+
+**Bee Brain's** purpose is to be a place for curious minds to test their knowledge, explore fun quizzes, and ***bee*** entertained with questions from every corner of trivia.
+
 ### User Experience
-<!-- include section on lighthouse performance & W3C validation code -->
+
+**Bee Brain** has been designed to be simple and easy to use, the site adapts well to different scren sizes thanks to Bootstrap and responsive design principles.
+
+<!-- awaiting new scores from update -->
 
 #### User Stories 
 - As a teacher, I want to quickly navigate between quizzes so I can use the site seamlessly while working with students.
 - As a quiz enthusiast, I want confirmation of my score so I can reflect on my answers and improve.
-- As a first-time user, I want an inviting welcome page so I can quickly understand the site and decide if it meets my needs.
-- As a user, I want the website to be responsive so I can use it across different screen sizes.
+- As a first-time visitor, I want an inviting welcome page so I can quickly understand the site and decide if it meets my needs.
+- As a returning visitor, I want the website to be responsive so I can use it across different screen sizes.
 
 There are further details on the user stories, as well as acceptance criteria, on the [project board](https://github.com/users/nanamontford/projects/4).
 
+#### User Value
+
+This site gives users an enjoyable and interactive experience thathelps them challenge their knowledge, discover new information, and stay entertained - all in one place
+
 #### Fonts 
+
 Arial in bold was used for headers and Verdana for all other text. These fonts were chosen for readability, particularly for individuals with visual impairments. 
 
 ### Features
-<!-- talk functionality & user benefits: reponsive welcoming homepage, easy to navigate, responsive nav bar, engaging and fun quizes -->
+
+Below are some key features of **Bee Brain**, along with screenshots that demostrate the functionality and user benefits:
+
+#### Homepage
+
+A clean and inviting homepage that immediately showcases available quizzes, making it easy for users to start playing the engaging and fun quizzes without any hassle.
+
+![readme-homepage-screenshot](assets/images/readme-homepage-screenshot.png)
+
+
+#### Responsive Navbar
+
+The navigation bar is fully reponsive, adjusting seamlessly to various screen sizes for smooth and accessible browsing on any device.
+
+![navbar-screenshot](assets/images/navbar-screenshot.png)
+
+#### Quizzes
+
+Users are presented with a question and four multiple-choice answers. They can select the answer they think is correct and then either **submit** their choice or **reset** the game using the buttons below. This allows users to interactively test their knowledge and restart the quiz at any time.
+
+![quiz-screenshot](assets/images/quiz-screenshot.png)
+
+### Tools Used
+
+- **HTML** - Used for the structure and layout of the website.
+- **CSS & Bootstrap** - Handled styling, responsiveness, and design features like media queries, layout grids, and colour theme.
+- **JavaScript** - Added interactivity to the quizzes and handled user input and dynamic elements.
+- **Copilot, Bing Image Creator, and ChatGPT** - These AI tools were used to streamline efficiency, resolve bugs, tidy up code, and create the website logo.
 
 ### Wireframe
-<!-- either link or screenshot  -->
+
+**Balsamiq** was used to plan and design this website. The screenshots below show the planning stages for the **Bee Brain** homepage and quiz pages, designed across **desktop, tablet, and mobile sizes** to ensure responsive layouts.
+
+![wireframe1](assets/images/wireframe1.png)
+![wireframe2](assets/images/wireframe2.png)
+
+***I found the wireframing process straightforward and user-friendly. It's designed to be quick, which allowed me to focus on layout and user flow rather than visual details. The drag-and-drop interface made it easy to explore different ideas, and the sketch-style visuals helped keep the emphasis on functionality over design polish.***
 
 ### Deployment
-<!-- include another link to github page with steps on how the page is deployed -->
+
+This site is being deployed using **GitHub Pages**. See link below.
+
+## [View Bee Brain now on GitHub Pages](https://nanamontford.github.io/bee-brain/)
+
+How this site was deployed:
+
+1. Logging in to GitHub
+2. Finding this project's repository.
+3. Clicking on the Settings link.
+4. Clicking on the Pages link - located in the left-hand navigation menu.
+5. In the source section, this is where you would select the root from the drop-down menu.
+6. Once this was saved, GitHub Pages deployed the site at the respective URL.
 
 ### AI Augmentation
-<!-- talk about how it was used to assist in debugging errors, logo generation/creation, give suggested corrections with explinations, optimise code for performance & UX/UI, help the learning & development process + workflow. -->
+
+AI tools like Copilot were used in this project to help fix grammar, catch bugs, and streamline code cleanup, which helped speed up development and keep things tidy.
+
+Another AI tool, Bing Image Creator, was used to design and create the website logo. This helped speed up the design process and keep the look consistent throughout the website.
+
+ChatGPT was used to guide on best practices, such as writing a clear and concise README and checking that the code was correct. 
+
+AI contributed to performance and UX improvements by recommeding optimisations and simplifying code structures. This made the website more responsive and enhanced overall user interaction while improving development efficiency. 
 
 ### End Credits
+<<<<<<< HEAD
 <!-- credits to Sameera, Nana & Liam. -->
+=======
+
+Created by **Sameera**, **Nana**, and **Liam**. **2025**
+>>>>>>> 9fa4ba44f9eee6ea4d9c933384e4d5fd28b9569e

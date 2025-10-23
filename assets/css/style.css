@@ -12,7 +12,6 @@ h1 {
 
 /*main*/
 .quiz-card {
-    width: 400px;
     background: #fff;
     border: 1px solid #ac1b1a;
     box-shadow: 0 0 15px #ac1b1a;
@@ -30,6 +29,7 @@ h1 {
 .quiz-card img {
     width: 100%;
     border-radius: 8px;
+    object-fit: cover;
     image-rendering: pixelated;
 }
 
@@ -81,6 +81,17 @@ footer {
     font-weight: 500;
 }
 /* gk-index (sameera made changes for gk-index )*/
+.gk-card {
+    max-width: 550px;
+    background: #fff;
+    border: 1px solid #ac1b1a;
+    box-shadow: 0 0 15px #ac1b1a;
+    border-radius: 10px;
+    padding: 2rem;
+    transition: transform 0.3s;
+    cursor: pointer;
+    color: #ac1b1a;
+}
 .my-custom-btn {
     background-color: #ac1b1a; /* custom color */
     border: none;
@@ -95,4 +106,45 @@ footer {
     background-color: #ac1b1a;
     transform: scale(1.05);
     color: #fff;
+}
+.option {
+    display: block;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #ac1b1a;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+}
+.option:hover {
+    background: #fbf5f5;
+}
+.option.correct {
+    border-color: #4ade80;
+    background: #dcfce7;
+}
+.option.incorrect {
+    border-color: #f87171;
+    background: #fee2e2;
+}
+.score-output {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+.congrats {
+    color: #ac1b1a;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.explanation {
+    background: #fff;
+    box-shadow: 0 0 15px #ac1b1a;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 14px;
 }
