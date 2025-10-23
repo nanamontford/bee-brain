@@ -42,7 +42,7 @@ There are further details on the user stories, as well as acceptance criteria, o
 
 #### User Value
 
-This site gives users an enjoyable and interactive experience thathelps them challenge their knowledge, discover new information, and stay entertained - all in one place.
+This site gives users an enjoyable and interactive experience thathelps them challenge their knowledge, discover new information, and stay entertained - all in one place
 
 #### Fonts 
 
