@@ -13,6 +13,7 @@
 - [Introduction](#introduction)
 - [User Experience](#user-experience)
 - [Features](#features)
+- [Tools Used](#tools-used)
 - [Wireframe](#wireframe)
 - [Deployment](#deployment)
 - [AI Augmentation](#ai-augmentation)
@@ -31,6 +32,8 @@
 ### User Experience
 
 **Bee Brain** has been designed to be simple and easy to use, the site adapts well to different scren sizes thanks to Bootstrap and responsive design principles.
+
+<!-- awaiting new scores from update -->
 
 #### User Stories 
 - As a teacher, I want to quickly navigate between quizzes so I can use the site seamlessly while working with students.
@@ -65,6 +68,19 @@ The navigation bar is fully reponsive, adjusting seamlessly to various screen si
 
 ![navbar-screenshot](assets/images/navbar-screenshot.png)
 
+#### Quizzes
+
+Users are presented with a question and four multiple-choice answers. They can select the answer they think is correct and then either **submit** their choice or **reset** the game using the buttons below. This allows users to interactively test their knowledge and restart the quiz at any time.
+
+![quiz-screenshot](assets/images/quiz-screenshot.png)
+
+### Tools Used
+
+- **HTML** - Used for the structure and layout of the website.
+- **CSS & Bootstrap** - Handled styling, responsiveness, and design features like media queries, layout grids, and colour theme.
+- **JavaScript** - Added interactivity to the quizzes and handled user input and dynamic elements.
+- **Copilot, Bing Image Creator, and ChatGPT** - These AI tools were used to streamline efficiency, resolve bugs, tidy up code, and create the website logo.
+
 ### Wireframe
 
 **Balsamiq** was used to plan and design this website. The screenshots below show the planning stages for the **Bee Brain** homepage and quiz pages, designed across **desktop, tablet, and mobile sizes** to ensure responsive layouts.
@@ -90,7 +106,15 @@ How this site was deployed:
 6. Once this was saved, GitHub Pages deployed the site at the respective URL.
 
 ### AI Augmentation
-<!-- talk about how it was used to assist in debugging errors, logo generation/creation, give suggested corrections with explinations, optimise code for performance & UX/UI, help the learning & development process + workflow -->
+
+AI tools like Copilot were used in this project to help fix grammar, catch bugs, and streamline code cleanup, which helped speed up development and keep things tidy.
+
+Another AI tool, Bing Image Creator, was used to design and create the website logo. This helped speed up the design process and keep the look consistent throughout the website.
+
+ChatGPT was used to guide on best practices, such as writing a clear and concise README and checking that the code was correct. 
+
+AI contributed to performance and UX improvements by recommeding optimisations and simplifying code structures. This made the website more responsive and enhanced overall user interaction while improving development efficiency. 
 
 ### End Credits
-<!-- credits to Sameera, Nana & Liam. -->
+
+Created by **Sameera**, **Nana**, and **Liam**. **2025**
