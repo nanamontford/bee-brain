@@ -54,3 +54,18 @@ const optionsEl = document.getElementById("movie-options");
 const nextBtn = document.getElementById("movie-nextBtn");
 const reset = document.getElementById("movie-resetBtn");
 const quizContainer = document.getElementById("movie-quiz-container");
+
+function loadQuestion() {
+    const question = quizData[currentQuestion];
+    questionEl.textContent = question.question;
+    optionsEl.innerHTML = "";
+    question.options.forEach((option, index) => {
+        const button = document.createElement("button");
+        button.textContent = option;
+        button.classList.add("option");
+        button.addEventListener("click", () => selectOption(button, index));
+        optionsEl.appendChild(button);
+    });
+    nextBtn.style.display = "none";
+    updateProgress();
+}
