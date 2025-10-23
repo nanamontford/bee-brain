@@ -4,17 +4,26 @@
 
 ## Bee Brain - Your ultimate destination for fun and engaging quizzes on a variety of topics.
 
-## View Bee Brain now on GitHub Pages
+## [View Bee Brain now on GitHub Pages](https://nanamontford.github.io/bee-brain/)
 
 ---
 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [User Experience](#user-experience)
+- [Features](#features)
+- [Wireframe](#wireframe)
+- [Deployment](#deployment)
+- [AI Augmentation](#ai-augmentation)
+- [End Credits](#end-credits)
 
 ### Introduction 
 
-### User Stories 
+### User Experience
+<!-- include section on lighthouse performance & W3C validation code -->
+
+#### User Stories 
 - As a teacher, I want to quickly navigate between quizzes so I can use the site seamlessly while working with students.
 - As a quiz enthusiast, I want confirmation of my score so I can reflect on my answers and improve.
 - As a first-time user, I want an inviting welcome page so I can quickly understand the site and decide if it meets my needs.
@@ -22,5 +31,20 @@
 
 There are further details on the user stories, as well as acceptance criteria, on the [project board](https://github.com/users/nanamontford/projects/4).
 
-### Fonts 
+#### Fonts 
 Arial in bold was used for headers and Verdana for all other text. These fonts were chosen for readability, particularly for individuals with visual impairments. 
+
+### Features
+<!-- talk functionality & user benefits: reponsive welcoming homepage, easy to navigate, responsive nav bar, engaging and fun quizes -->
+
+### Wireframe
+<!-- either link or screenshot  -->
+
+### Deployment
+<!-- include another link to github page with steps on how the page is deployed -->
+
+### AI Augmentation
+<!-- talk about how it was used to assist in debugging errors, logo generation/creation, give suggested corrections with explinations, optimise code for performance & UX/UI, help the learning & development process + workflow. -->
+
+### End Credits
+<!-- credits to Sameera, Nana & Liam. -->
