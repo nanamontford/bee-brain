@@ -90,7 +90,7 @@ How this site was deployed:
 6. Once this was saved, GitHub Pages deployed the site at the respective URL.
 
 ### AI Augmentation
-<!-- talk about how it was used to assist in debugging errors, logo generation/creation, give suggested corrections with explinations, optimise code for performance & UX/UI, help the learning & development process + workflow. -->
+<!-- talk about how it was used to assist in debugging errors, logo generation/creation, give suggested corrections with explinations, optimise code for performance & UX/UI, help the learning & development process + workflow -->
 
 ### End Credits
 
