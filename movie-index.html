@@ -55,7 +55,7 @@
     <main>
         <div class="container pt-5" id="movie-quiz-container">
             <div class="row justify-content-center p-4">
-                <div class="col  text-center quiz-card ">
+                <div class="col  text-center movie-quiz-card ">
                     <div class=" text-center ">
                         <h2>Movie Quiz</h2>
 
@@ -66,12 +66,14 @@
 
                         <div class="mt-5">
                             <button class=" btn  my-custom-btn" id="movie-submitBtn">Submit</button>
-                            <button class=" btn  my-custom-btn" id="movie-nextBtn">Next</button>
+                            <button class=" btn  my-custom-btn" id="movie-nextBtn" style="display:none;">Next</button>
                             <button class=" btn  my-custom-btn" id="movie-resetBtn">Reset</button>
                         </div>
-                        <div class="movie-score-output" id="scoreOutput">0</div>
-                        <div class="movie-congrats" id="movie-congratsMsg"> Congratulations message</div>
-                        <div class="movie-explanation" id="movie-explanation">explanation</div>
+                        <div class="movie-score-output" id="scoreOutput"></div>
+                        <div class="movie-congrats" id="movie-congratsMsg" style="display:none;"> 🎉 Congratulations!
+                            You got a
+                            perfect score! 🎉</div>
+                        <div class="movie-explanation" id="movie-explanation" style="display:none;">explanation</div>
                     </div>
 
                 </div>
