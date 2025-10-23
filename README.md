@@ -1,6 +1,6 @@
-# Bee Brain 
+# Bee Brain
 
---- 
+---
 
 ## Bee Brain - Your ultimate destination for fun and engaging quizzes on a variety of topics.
 
