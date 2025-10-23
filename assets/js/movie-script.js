@@ -46,6 +46,8 @@ const quizData = [
     },
 ];
 
+// troubleshoot here:
+
 let currentQuestion = 0;
 let score = 0;
 
