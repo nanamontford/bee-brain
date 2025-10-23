@@ -19,8 +19,6 @@
 - [End Credits](#end-credits)
 
 ### Introduction 
-<!-- delete when done -->
-
 
 ### User Experience
 <!-- include section on lighthouse performance & W3C validation code -->
