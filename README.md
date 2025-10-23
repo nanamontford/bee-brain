@@ -1,6 +1,6 @@
-# Bee Brain 
+# Bee Brain
 
---- 
+---
 
 ## Bee Brain - Your ultimate destination for fun and engaging quizzes on a variety of topics.
 
@@ -93,5 +93,4 @@ How this site was deployed:
 <!-- talk about how it was used to assist in debugging errors, logo generation/creation, give suggested corrections with explinations, optimise code for performance & UX/UI, help the learning & development process + workflow -->
 
 ### End Credits
-
-Created by **Sameera**, **Nana** and **Liam** 2025
+<!-- credits to Sameera, Nana & Liam. -->
