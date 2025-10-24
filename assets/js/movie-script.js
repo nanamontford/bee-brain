@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "What is the most streamed film on Netflix?",
+        question: "1. What is the most streamed film on Netflix?",
         options: [
             "K-Pop Demon Hunters",
             "The Godfather",
@@ -12,7 +12,7 @@ const quizData = [
             "K-Pop Demon Hunters is the most streamed film on netflix with over 236 million streams!",
     },
     {
-        question: "Which is the highest grossing film of all time?",
+        question: "2. Which is the highest grossing film of all time?",
         options: [
             "Avengers Infinity War",
             "Avatar",
@@ -24,13 +24,13 @@ const quizData = [
             "Avatar is the highest grossing film of all time with a worldwide gross of $2,923,710,708",
     },
     {
-        question: "When did David Attenborough start presenting?",
+        question: "3. When did David Attenborough start presenting?",
         options: ["1946", "1954", "1967", "1973"],
         correct: 1,
         explanation: "David Attenborough started presenting in 1954",
     },
     {
-        question: "Who directed The Grand Budapest Hotel?",
+        question: "4. Who directed The Grand Budapest Hotel?",
         options: [
             "Wesley snipes",
             "Wes Sanderson",
@@ -41,7 +41,7 @@ const quizData = [
         explanation: "The Grand Budapest Hotel is Wes Anderson's 8th film",
     },
     {
-        question: "Where was Jaws primarily filmed?",
+        question: "5. Where was Jaws primarily filmed?",
         options: [
             "Martha's Vineyard, Massachusetts",
             "Bondi Beach, Australia",
