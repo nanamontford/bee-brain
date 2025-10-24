@@ -164,11 +164,11 @@ footer {
 .movie-score-output {
     margin-top: 10px;
     font-size: 16px;
-    font-weight: bold;
     padding: 10px;
+    font-weight: bold;
 }
 
-.move-options {
+.movie-options {
     text-align: left;
 }
 
@@ -210,4 +210,8 @@ footer {
     border-radius: 8px;
     margin-top: 10px;
     font-size: 14px;
+}
+
+.movie-question {
+    font-weight: bold;
 }
