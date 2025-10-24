@@ -8,13 +8,13 @@ const quizData = [
             "The sky appears blue during the day due to the scattering of sunlight by the atmosphere.",
     },
     {
-        question: "What is the capital of France?",
+        question: "2.What is the capital of France?",
         options: ["Berlin", "Madrid", "Paris", "Rome"],
         correct: 2,
         explanation: "Paris is the capital city of France.",
     },
     {
-        question: "Which gas do plants absorb from the atmosphere?",
+        question: "3.Which gas do plants absorb from the atmosphere?",
         options: ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
         correct: 2,
         explanation:
@@ -22,7 +22,7 @@ const quizData = [
     },
 
     {
-        question: "Which is the largest ocean on Earth?",
+        question: "4.Which is the largest ocean on Earth?",
         options: [
             "Atlantic Ocean",
             "Indian Ocean",
@@ -34,7 +34,7 @@ const quizData = [
             "The Pacific Ocean is the largest and deepest ocean on Earth.",
     },
     {
-        question: "Who wrote the play “Romeo and Juliet”?",
+        question: "5.Who wrote the play “Romeo and Juliet”?",
         options: [
             "Charles Dickens",
             "William Shakespeare",
@@ -60,7 +60,6 @@ const resetBtn = document.getElementById("resetBtn");
 const scoreOutput = document.getElementById("scoreOutput");
 const explanationEl = document.getElementById("explanation");
 const congratsMsg = document.getElementById("congratsMsg");
-const gkcontainer = document.getElementById("gk");
 
 // --- FUNCTIONS ---
 
