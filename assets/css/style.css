@@ -115,6 +115,8 @@ footer {
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.2s, border-color 0.2s;
+    text-align: left !important;
+    padding-left: 40%;
 }
 .option:hover {
     background: #fbf5f5;
