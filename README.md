@@ -33,7 +33,9 @@
 
 **Bee Brain** has been designed to be simple and easy to use, the site adapts well to different scren sizes thanks to Bootstrap and responsive design principles.
 
-<!-- awaiting new scores from update -->
+**100% Lighthouse Performance Score** - ensures fast loading, reliable performance, and adherence to best practices, including SEO.
+ 
+![lighthouse-score](assets/images/lighthouse-score.png)
 
 #### User Stories 
 - As a teacher, I want to quickly navigate between quizzes so I can use the site seamlessly while working with students.
