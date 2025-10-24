@@ -33,15 +33,24 @@
 
 **Bee Brain** has been designed to be simple and easy to use, the site adapts well to different scren sizes thanks to Bootstrap and responsive design principles.
 
+#### Verifications
+
 **100% Lighthouse Performance Score** - ensures fast loading, reliable performance, and adherence to best practices, including SEO.
  
 ![lighthouse-score](assets/images/lighthouse-score.png)
+
+**Fully Passed W3C Validation** - both HTML & CSS passed official W3C validators with no issues, ensuring clean and compliant code.
+
+![w3-verification](assets/images/w3-verification.png)
+![w3-verification-css](assets/images/w3-verification-css.png)
 
 #### User Stories 
 - As a teacher, I want to quickly navigate between quizzes so I can use the site seamlessly while working with students.
 - As a quiz enthusiast, I want confirmation of my score so I can reflect on my answers and improve.
 - As a first-time visitor, I want an inviting welcome page so I can quickly understand the site and decide if it meets my needs.
 - As a returning visitor, I want the website to be responsive so I can use it across different screen sizes.
+
+#### Project Board
 
 There are further details on the user stories, as well as acceptance criteria, on the [project board](https://github.com/users/nanamontford/projects/4).
 
@@ -67,6 +76,12 @@ A clean and inviting homepage that immediately showcases available quizzes, maki
 #### Responsive Navbar
 
 The navigation bar is fully reponsive, adjusting seamlessly to various screen sizes for smooth and accessible browsing on any device.
+
+The navigation is always visible at the top of the website as it is fixed. The Bee Brain logo is on the left while the links to each quiz (General Knowledge, Geography, Movies) and the homepage are on the right. 
+
+The presentation of the navigation changes in response to screen size. On larger screens, it take up the full width with all of the quiz names visible. On smaller screens, the navigation bar items condenses into a drop-down menu. 
+
+In keeping the user interface themes of the website, when the quiz names is hovered over the text transforms to be x1.02 larger, the text color changes from red to black and a red box shadow highlights the word. The hover effect is disabled on current page to indicate to the user’s current location.
 
 ![navbar-screenshot](assets/images/navbar-screenshot.png)
 
@@ -120,3 +135,11 @@ AI contributed to performance and UX improvements by recommeding optimisations a
 ### End Credits
 
 Created by **Sameera**, **Nana**, and **Liam**. **2025**
+
+#### Acknowledgements
+
+Inspiration taken from previous projects shared with us, including:
+- Geography Quiz (https://charlie-lambino-worthington.github.io/hackathon/)
+- The Arcadean's Project (https://wen-l-liu.github.io/hackathon-pixels/)
+- Interactive Quiz Application (https://bootstrapexamples.com/@ross-wille/interactive-quiz-application)
+- Bootstrap Quiz Online Template Example (https://bbbootstrap.com/snippets/bootstrap-mcq-quiz-online-test-template-83992612)
