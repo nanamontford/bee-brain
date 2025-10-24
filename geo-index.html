@@ -15,8 +15,7 @@
 
 </head>
 <!-- geo quiz page - Liam's build -->
-<body>
-
+<!-- navigation bar. links to other quizes & homepage  -->
 <!-- navigation bar  -->
 <nav id="nav-bar" class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
@@ -30,38 +29,74 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
                 <!--  Change nav bar active id + class + aria to whichever is correct on that page, please -->
+                <a class="nav-link" href="index.html">Home</a>
                 <a class="nav-link" href="gk-index.html">General knowledge</a>
-                <a id="nav-bar-active" class="nav-link active" href="geo-index.html">Geography</a>
-                <a class="nav-link" aria-current="movie quiz"
-                    href="movie-index.html">Movies</a>
+                <a class="nav-link active" aria-current="geography quiz" id="nav-bar-active" href="geo-index.html">Geography</a>
+                <a class="nav-link" href="movie-index.html">Movies</a>
             </div>
         </div>
     </div>
-</nav>    
+</nav>
+
+<!-- body includes logo and geography quiz -->
+
+<body class="d-flex flex-column min-vh-100">
+    <!--logo-->
+    <header>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col text-center">
+                    <h1><img id="logo" src="assets/images/logo.png" alt="BeeBrain Logo">BeeBrain</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- here is where the html for the quiz is -->
     <main>
         <div class="container pt-5">
-            <div class="row justify-content-center p-4">
-                <div class="col  text-center quiz-card ">
-                    <div class=" text-center ">
+            <!-- horizontal row / centers the rows content horizontally -->
+            <div class="row justify-content-center ">
+                <!-- column inside a row, centered text / gk - card CSS, makes the outside box -->
+                <div class="col text-center gk-card  ">
+                    <!-- where the quiz questions are -->
+                    <div class="quiz-container id=gk">
+                        <!-- quiz title -->
                         <h2>Geography Quiz</h2>
-                        <p id="question">1. What is your name?</p>
+                        <!-- font weight bold. id goes to JS questions-->
+                        <p class="fw-bold" id="question"></p>
 
-                        <div id="options">Liam</div>
+                        <div id="options"></div>
 
-                        <div class="mt-5">
-                            <button class=" btn  my-custom-btn" id="submitBtn">Submit</button>
-                            <button class=" btn  my-custom-btn" id="nextBtn">Next</button>
-                            <button class=" btn  my-custom-btn" id="resetBtn">Reset</button>
-
+                        <!-- this is where the buttons are, the user will be able to submit and/or restart -->
+                        <!-- margin top of 15px -->
+                        <div style="margin-top:15px;">
+                            <button class="btn my-custom-btn" id="scoreBtn">Submit</button>
+                            <button class="btn my-custom-btn" id="nextBtn" style="display:none;">Next</button>
+                            <button class="btn my-custom-btn" id="resetBtn">Restart</button>
                         </div>
-                        <div class="score-output" id="scoreOutput">0</div>
-                        <div class="congrats" id="congratsMsg"> Congratulations message</div>
-                        <div class="explanation" id="explanation">explanation</div>
-                    </div>
 
+                        <div class="score-output" id="scoreOutput"></div>
+                        <div class="congrats" id="congratsMsg" style="display:none;">You Completed the Quiz!</div>
+                        <div class="explanation" id="explanation" style="display:none;">Information</div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
 
+    <!--footer-->
+    <footer class="pt-4">
+        <p>Made by LNS</p>
+    </footer>
+
+    <!-- bootstrap JS for navbar -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- link for geo-script JS -->
+    <script src="assets/js/geo-script.js"></script>
 </body>
+
+</html>
